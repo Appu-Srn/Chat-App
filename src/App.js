@@ -20,7 +20,7 @@ export default class App extends Component {
     const chatManager = new Chatkit.ChatManager({
       instanceLocator,
       userId: "Liam",
-      key: "195b902d-f9d4-45fb-896a-6ef66a7a2563:N/c5AyEKcm1EUcADQm5gRT4O86N0l4r2+3WS5ZOTKJ8=",
+      // key: "195b902d-f9d4-45fb-896a-6ef66a7a2563:N/c5AyEKcm1EUcADQm5gRT4O86N0l4r2+3WS5ZOTKJ8=",
       tokenProvider: new Chatkit.TokenProvider({
         url: tokenUrl
       })
